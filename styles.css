@@ -1,0 +1,54 @@
+/* Add your CSS styles here to style the HTML elements accordingly */
+
+/* Example styles for the header */
+header {
+    background-color: #fafafa;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0e0d0d;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-image: url('https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg'); 
+    background-size: cover;
+    color: #f3ecec;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e50914;
+    color: #0c0c0c;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
